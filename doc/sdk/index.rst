@@ -29,7 +29,7 @@ Configuration
 
 Basic
 
-    TODO: Provide samples documentation
+    basichostlookupexample
 
 Python API
 ----------
