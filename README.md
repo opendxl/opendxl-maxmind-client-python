@@ -1,11 +1,12 @@
-# MaxMind Geolocation Client
+# MaxMind Geolocation DXL Client Library
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ## Overview
 
 The MaxMind DXL Python client library provides a high level wrapper for invoking MaxMind Geolocation Lookups
 via the [Data Exchange Layer](http://www.mcafee.com/us/solutions/data-exchange-layer.aspx) (DXL) fabric.
 
-This client requires the `MaxMind DXL Service <https://github.com/opendxl/opendxl-maxmind-service-python>`_
+This client requires the [MaxMind DXL Service](https://github.com/opendxl/opendxl-maxmind-service-python)
 to be running and available on the DXL fabric.
 
 ## Documentation
@@ -32,7 +33,7 @@ For bugs, questions and discussions please use the [GitHub Issues](https://githu
 
 ## LICENSE
 
-Copyright 2017 McAfee, Inc.
+Copyright 2017 McAfee LLC
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 

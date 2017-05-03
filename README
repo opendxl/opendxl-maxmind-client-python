@@ -1,10 +1,10 @@
-MaxMind Geolocation Client
-==========================
+MaxMind Geolocation DXL Python Client Library
+=============================================
 
 Overview
 --------
 
-The MaxMind DXL Python client library provides a high level wrapper for invoking MaxMind Geolocation Lookups
+The MaxMind DXL Python client library provides a high level wrapper for invoking MaxMind Geolocation lookups
 via the [Data Exchange Layer](http://www.mcafee.com/us/solutions/data-exchange-layer.aspx) (DXL) fabric.
 
 This client requires the `MaxMind DXL Service <https://github.com/opendxl/opendxl-maxmind-service-python>`_

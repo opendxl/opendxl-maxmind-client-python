@@ -1,5 +1,5 @@
 Basic Host Lookup Example
-===========================
+=========================
 
 This sample invokes and displays the results of a MaxMind database host lookup via DXL.
 
@@ -140,7 +140,7 @@ The majority of the sample code is shown below:
 Once a connection is established to the DXL fabric, a :class:`dxlmaxmindclient.client.MaxMindGeolocationClient` instance is
 created which will be used to invoke remote commands on the MaxMind DXL service.
 
-Next, the :func:`dxlmaxmindclient.client.MaxMindGeolocationClient.host_lookup` method is invoked with the host to receive geolocation information about.
+Next, the :func:`dxlmaxmindclient.client.MaxMindGeolocationClient.lookup_host` method is invoked with the host to receive geolocation information about.
 
 The final step is to display the contents of the returned dictionary (``dict``) which contains the results of the host lookup.
 

@@ -38,7 +38,7 @@ dist = setup(
     # Details
     url="http://www.mcafee.com/",
 
-    description="MaxMind DXL client library",
+    description="MaxMind Geolocation DXL client library",
 
     long_description=open('README').read(),
 

@@ -29,6 +29,9 @@ Configuration
 
 Basic
 
+.. toctree::
+    :maxdepth: 1
+
     basichostlookupexample
 
 Python API
@@ -38,4 +41,3 @@ Python API
     :titlesonly:
 
     dxlmaxmindclient
-

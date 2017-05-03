@@ -22,6 +22,12 @@ class MaxMindGeolocationClient(Client):
         super(MaxMindGeolocationClient, self).__init__(dxl_client)
 
     def lookup_host(self, host):
+        """
+        Looks up Geolocation information for the specified host/IP
+
+        :param host: The host/IP to lookup
+        :return: A dictionary (``dict``) containing the details of the Geolocation lookup
+        """
         # Create the DXL request message
         request = Request(self.HOST_LOOKUP_TOPIC)
 
