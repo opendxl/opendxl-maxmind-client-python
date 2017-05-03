@@ -1,0 +1,17 @@
+dxlmaxmindclient package
+========================
+
+Submodules
+----------
+
+.. toctree::
+
+   dxlmaxmindclient.client
+
+Module contents
+---------------
+
+.. automodule:: dxlmaxmindclient
+    :members:
+    :undoc-members:
+    :show-inheritance:

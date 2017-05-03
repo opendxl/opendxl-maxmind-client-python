@@ -1,0 +1,7 @@
+dxlmaxmindclient.client module
+==============================
+
+.. automodule:: dxlmaxmindclient.client
+    :members:
+    :undoc-members:
+    :show-inheritance:
