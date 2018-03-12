@@ -1,6 +1,7 @@
 from __future__ import absolute_import
 from __future__ import print_function
 import os
+# pylint: disable=no-name-in-module, import-error
 from distutils.dir_util import remove_tree
 from shutil import copyfile
 
@@ -12,7 +13,8 @@ def clean_dir(src_dir, directory):
             if not os.path.isdir(os.path.join(directory, f)) and not f.lower().endswith(".py"):
                 os.remove(os.path.join(directory, f))
         for f in os.listdir(src_dir):
-            if not os.path.isdir(f) and not(f.lower().endswith(".py") or f.lower().endswith(".pyc")):
+            if not os.path.isdir(f) and \
+                    not(f.lower().endswith(".py") or f.lower().endswith(".pyc")):
                 copyfile(os.path.join(src_dir, f), os.path.join(directory, f))
 
 print("Starting clean.\n")
