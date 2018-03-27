@@ -50,7 +50,7 @@ class CiCommand(Command):
         self.run_command("lint")
         self.run_command("test")
 
-TEST_REQUIREMENTS = ["mock", "nose", "pylint"]
+TEST_REQUIREMENTS = ["mock", "nose", "pylint", "dxlmaxmindservice"]
 
 DEV_REQUIREMENTS = TEST_REQUIREMENTS + ["sphinx"]
 

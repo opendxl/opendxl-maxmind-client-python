@@ -3,3 +3,4 @@ dist/
 *.pyc
 build/
 dxlmaxmindclient.egg-info/
+sample/dxlmaxmindservice.config

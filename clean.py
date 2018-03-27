@@ -40,7 +40,7 @@ clean_dir(SAMPLE_SRC_DIRECTORY, SAMPLE_DIRECTORY)
 # Clean .pyc files
 print("Cleaning .pyc files")
 for root, dirs, files in os.walk(DIST_PY_FILE_LOCATION):
-    for file in files:
-        full_path = os.path.join(root, file)
+    for source_file in files:
+        full_path = os.path.join(root, source_file)
         if full_path.lower().endswith(".pyc"):
             os.remove(full_path)
