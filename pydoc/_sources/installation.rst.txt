@@ -13,6 +13,9 @@ Prerequisites
 * The MaxMind DXL service is running and available on the DXL fabric
     `<https://github.com/opendxl/opendxl-maxmind-service-python>`_
 
+* Python 2.7.9 or higher in the Python 2.x series or Python 3.4.0 or higher
+  in the Python 3.x series installed within a Windows or Linux environment.
+
 Installation
 ************
 
