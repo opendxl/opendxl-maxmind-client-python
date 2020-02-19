@@ -41,5 +41,6 @@ jobs:
         
     - name: Execute CI
       run: |
+        python -m dxlmaxmindservice sample || true
         sed -i 's/licenseKey=/licenseKey=${{ secrets.MAXMIND_LICENSE_KEY }}/g' sample/dxlmaxmindservice.config
         python setup.py ci
