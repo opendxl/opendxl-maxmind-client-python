@@ -4,6 +4,7 @@ dist/
 build/
 dxlmaxmindclient.egg-info/
 sample/dxlmaxmindservice.config
+sample/dxlclient.config
 *.csr
 *.key
 *.crt
